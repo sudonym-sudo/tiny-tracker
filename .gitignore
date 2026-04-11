@@ -1,0 +1,25 @@
+# node dependencies
+node_modules/
+
+# swarm session data
+.swarm/
+
+# production builds
+frontend/dist/
+.svelte-kit/
+
+# database files (keep your local data local)
+tracker.db
+tracker.db-journal
+
+# environment secrets
+.env
+*.env.local
+
+# logs
+*.log
+npm-debug.log*
+
+# OS specific files
+.DS_Store
+Thumbs.db

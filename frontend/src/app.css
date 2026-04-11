@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Iosevka";
+    src: url("./assets/fonts/Iosevka/SGr-Iosevka-Regular.ttc")
+        format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Iosevka";
+    src: url("./assets/fonts/Iosevka/SGr-Iosevka-Bold.ttc") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Iosevka";
+    src: url("./assets/fonts/Iosevka/SGr-Iosevka-Light.ttc") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Iosevka";
+    src: url("./assets/fonts/Iosevka/SGr-Iosevka-Medium.ttc") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Iosevka";
+    src: url("./assets/fonts/Iosevka/SGr-Iosevka-ExtraBold.ttc")
+        format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+/* Apply globally */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Iosevka", sans-serif;
+}
+
+/* Ensure form controls inherit the monospaced font */
+button,
+input,
+select,
+textarea {
+    font-family: "Iosevka", sans-serif;
+    font-weight: normal;
+}

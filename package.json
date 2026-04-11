@@ -1,0 +1,24 @@
+{
+  "name": "tiny-tracker",
+  "version": "1.0.0",
+  "description": "A widget based expense tracking and note taking tool",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd backend && node server.js\" \"cd frontend && npm run dev\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudonym-sudo/tiny-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sudonym-sudo/tiny-tracker/issues"
+  },
+  "homepage": "https://github.com/sudonym-sudo/tiny-tracker#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
