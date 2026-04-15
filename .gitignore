@@ -4,6 +4,9 @@ node_modules/
 # swarm session data
 .swarm/
 
+# conductor (plan/track data)
+conductor/
+
 # production builds
 frontend/dist/
 .svelte-kit/
