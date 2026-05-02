@@ -31,19 +31,33 @@
     font-style: normal;
 }
 
+:root {
+    --color-primary: #ff9f0a;     /* Apple Calculator Orange */
+    --color-gray-dark: #333;      /* Utility button gray */
+    --color-gray-light: #a5a5a5;  /* Secondary button gray */
+    --bg-dark: #000;
+    --bg-header: #000;
+    --bg-node: #000;
+    --border-dim: #1c1c1e;        /* Subtle dark border */
+    --text-main: #fff;
+    --text-dim: #888;
+    --radius: 24px;              /* Hardware-like rounding */
+    --shadow-depth: none;
+    --transition: none;
+}
+
 /* Apply globally */
 html,
 body {
     margin: 0;
     padding: 0;
-    font-family: "Iosevka", sans-serif;
+    font-family: "Iosevka", monospace;
+    background: var(--bg-dark);
+    color: var(--text-main);
+    -webkit-font-smoothing: antialiased;
 }
 
-/* Ensure form controls inherit the monospaced font */
-button,
-input,
-select,
-textarea {
-    font-family: "Iosevka", sans-serif;
-    font-weight: normal;
+button, input, textarea {
+    font-family: "Iosevka", monospace;
+    border-radius: var(--radius);
 }
